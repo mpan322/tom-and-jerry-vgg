@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ai-project"
+version = "0.1.0"
+description = ""
+package-mode = false
+authors = ["mpan <mp322@st-andrews.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.8.4"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+opencv-python = "^4.9.0.80"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+tensorflow = "^2.16.1"
+tensorflow-datasets = "^4.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
